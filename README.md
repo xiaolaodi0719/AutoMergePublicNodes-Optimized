@@ -319,17 +319,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-08-09 02:09:06 |
+| 更新时间 | 2026-08-09 07:07:35 |
 | 版本 | 2.4.0 |
 | 订阅源 | 101/107 |
-| 原始节点 | 82844 |
-| 去重后 | 23635 |
+| 原始节点 | 82917 |
+| 去重后 | 23035 |
 | TCP 可达 | 3000 |
-| 真实可用 | 553 |
-| 真测通过率 | 18.4% |
+| 真实可用 | 540 |
+| 真测通过率 | 18.0% |
 | Verified 输出 | 300 |
 | Global 输出 | 300 |
-| All 输出 | 23635 |
+| All 输出 | 23035 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -337,21 +337,21 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 83.82 | http | 190.1 | zhangkai |
-| 83.8 | http | 190.9 | zhangkai |
-| 83.77 | http | 192.1 | zhangkai |
-| 83.72 | http | 194.2 | zhangkai |
-| 83.34 | vless | 188.9 | Au1rxx-base64 |
+| 83.85 | http | 191.2 | zhangkai |
+| 83.75 | http | 195.8 | zhangkai |
+| 83.63 | http | 200.7 | zhangkai |
+| 82.87 | http | 233.5 | zhangkai |
+| 82.36 | shadowsocks | 202.5 | Au1rxx-base64 |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| Au1rxx-base64 | 1.0 | 336 | prefer |
+| Au1rxx-base64 | 0.994 | 401 | prefer |
 | zhangkai | 0.956 | 20 | prefer |
-| Surfboard-tg-mixed | 0.74 | 151 | prefer |
-| mheidari-all | 0.58 | 204 | observe |
-| tg-oneclickvpnkeys | 0.316 | 2 | observe |
+| Surfboard-tg-mixed | 0.836 | 84 | prefer |
+| mheidari-all | 0.616 | 136 | observe |
+| tg-oneclickvpnkeys | 0.318 | 2 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
