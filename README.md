@@ -319,17 +319,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-08-11 13:20:23 |
+| 更新时间 | 2026-08-11 19:12:00 |
 | 版本 | 2.4.0 |
 | 订阅源 | 102/107 |
-| 原始节点 | 84566 |
-| 去重后 | 24401 |
+| 原始节点 | 81101 |
+| 去重后 | 23130 |
 | TCP 可达 | 3000 |
-| 真实可用 | 527 |
-| 真测通过率 | 17.6% |
+| 真实可用 | 570 |
+| 真测通过率 | 19.0% |
 | Verified 输出 | 300 |
 | Global 输出 | 300 |
-| All 输出 | 24401 |
+| All 输出 | 23130 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -337,21 +337,21 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 82.74 | trojan | 235.5 | Au1rxx-base64 |
-| 82.35 | trojan | 234.2 | Au1rxx-base64 |
-| 82.08 | vless | 184.6 | Au1rxx-base64 |
-| 82.05 | vless | 185.5 | Au1rxx-base64 |
-| 82.02 | vless | 186.8 | Au1rxx-base64 |
+| 82.67 | hysteria2 | 264.8 | Au1rxx-base64 |
+| 82.63 | hysteria2 | 270.6 | Au1rxx-base64 |
+| 81.46 | http | 291.4 | zhangkai |
+| 81.26 | http | 301.2 | zhangkai |
+| 81.23 | http | 299.4 | zhangkai |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
 | zhangkai | 0.999 | 128 | prefer |
-| Au1rxx-base64 | 0.903 | 392 | prefer |
-| Surfboard-tg-mixed | 0.784 | 79 | prefer |
-| mheidari-all | 0.543 | 13 | observe |
-| DeltaKronecker-all | 0.324 | 8 | observe |
+| Au1rxx-base64 | 0.947 | 370 | prefer |
+| Surfboard-tg-mixed | 0.794 | 103 | prefer |
+| mheidari-all | 0.74 | 51 | prefer |
+| DeltaKronecker-all | 0.352 | 6 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
