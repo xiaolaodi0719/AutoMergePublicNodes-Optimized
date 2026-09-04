@@ -1,14 +1,14 @@
 # 订阅源质量评分
 
-生成时间：2026-09-03 20:51:23
+生成时间：2026-09-04 03:57:21
 
 ## 摘要
 
 | 指标 | 值 |
 | --- | --- |
 | 已评分订阅源总数 | 107 |
-| 建议优先 | 5 |
-| 继续观察 | 102 |
+| 建议优先 | 3 |
+| 继续观察 | 104 |
 | 建议降权 | 0 |
 | 建议禁用 | 0 |
 
@@ -16,11 +16,9 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Au1rxx-base64 | 1.0 | prefer | 365 | 347 | 18 | 0.951 | 1748 | 0 |
-| zhangkai | 0.966 | prefer | 23 | 23 | 0 | 1.0 | 144 | 0 |
-| mheidari-all | 0.92 | prefer | 98 | 83 | 15 | 0.847 | 15893 | 0 |
-| Surfboard-tg-mixed | 0.811 | prefer | 76 | 56 | 20 | 0.737 | 7177 | 0 |
-| DeltaKronecker-all | 0.81 | prefer | 87 | 64 | 23 | 0.736 | 6335 | 0 |
+| Au1rxx-base64 | 0.995 | prefer | 384 | 356 | 28 | 0.927 | 1753 | 0 |
+| zhangkai | 0.964 | prefer | 22 | 22 | 0 | 1.0 | 144 | 0 |
+| Surfboard-tg-mixed | 0.855 | prefer | 211 | 164 | 47 | 0.777 | 7237 | 0 |
 
 ## 建议降权
 
@@ -34,31 +32,31 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Au1rxx-base64 | 1.0 | prefer | 365 | 347 | 18 | 0.951 | 1748 | 0 |
-| zhangkai | 0.966 | prefer | 23 | 23 | 0 | 1.0 | 144 | 0 |
-| mheidari-all | 0.92 | prefer | 98 | 83 | 15 | 0.847 | 15893 | 0 |
-| Surfboard-tg-mixed | 0.811 | prefer | 76 | 56 | 20 | 0.737 | 7177 | 0 |
-| DeltaKronecker-all | 0.81 | prefer | 87 | 64 | 23 | 0.736 | 6335 | 0 |
-| tg-oneclickvpnkeys | 0.405 | observe | 4 | 4 | 0 | 1.0 | 115 | 0 |
-| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 8160 | 0 |
-| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 7695 | 0 |
-| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6131 | 0 |
-| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 5920 | 0 |
+| Au1rxx-base64 | 0.995 | prefer | 384 | 356 | 28 | 0.927 | 1753 | 0 |
+| zhangkai | 0.964 | prefer | 22 | 22 | 0 | 1.0 | 144 | 0 |
+| Surfboard-tg-mixed | 0.855 | prefer | 211 | 164 | 47 | 0.777 | 7237 | 0 |
+| mheidari-all | 0.691 | observe | 191 | 117 | 74 | 0.613 | 15793 | 0 |
+| DeltaKronecker-all | 0.488 | observe | 211 | 86 | 125 | 0.408 | 6335 | 0 |
+| tg-oneclickvpnkeys | 0.403 | observe | 4 | 4 | 0 | 1.0 | 71 | 0 |
+| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 7955 | 0 |
+| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 7701 | 0 |
+| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6237 | 0 |
+| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 6022 | 0 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 4671 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4133 | 0 |
-| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3998 | 0 |
-| ninja-vless | 0.247 | observe | 0 | 0 | 0 | None | 1791 | 0 |
-| Au1rxx-clash | 0.245 | observe | 0 | 0 | 0 | None | 1748 | 0 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3997 | 0 |
+| Au1rxx-clash | 0.245 | observe | 0 | 0 | 0 | None | 1753 | 0 |
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
+| ninja-vless | 0.199 | observe | 1 | 0 | 1 | 0.0 | 1791 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 495 | 0 |
-| barry-far-Sub1 | 0.194 | observe | 0 | 0 | 0 | None | 478 | 0 |
+| barry-far-Sub1 | 0.194 | observe | 0 | 0 | 0 | None | 481 | 0 |
 | ts-sf-Fly | 0.183 | observe | 0 | 0 | 0 | None | 201 | 0 |
-| MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-ConfigV2rayNG | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | ts-sf | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
-| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 178 | 0 |
+| MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 199 | 0 |
+| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 180 | 0 |
 | tg-proxy_mtm | 0.182 | observe | 0 | 0 | 0 | None | 168 | 0 |
 | Barabama-yudou | 0.182 | observe | 0 | 0 | 0 | None | 166 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
