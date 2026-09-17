@@ -1,6 +1,6 @@
 # 订阅源质量评分
 
-生成时间：2026-09-17 04:33:44
+生成时间：2026-09-17 11:31:12
 
 ## 摘要
 
@@ -16,9 +16,9 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Au1rxx-base64 | 0.939 | prefer | 278 | 244 | 34 | 0.878 | 1590 | 0 |
-| ermaozi | 0.785 | prefer | 24 | 19 | 5 | 0.792 | 396 | 0 |
-| Surfboard-tg-mixed | 0.713 | prefer | 257 | 163 | 94 | 0.634 | 7408 | 0 |
+| Au1rxx-base64 | 0.897 | prefer | 275 | 229 | 46 | 0.833 | 1663 | 0 |
+| mheidari-all | 0.834 | prefer | 63 | 48 | 15 | 0.762 | 16008 | 0 |
+| ermaozi | 0.748 | prefer | 54 | 40 | 14 | 0.741 | 396 | 0 |
 
 ## 建议降权
 
@@ -32,36 +32,36 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Au1rxx-base64 | 0.939 | prefer | 278 | 244 | 34 | 0.878 | 1590 | 0 |
-| ermaozi | 0.785 | prefer | 24 | 19 | 5 | 0.792 | 396 | 0 |
-| Surfboard-tg-mixed | 0.713 | prefer | 257 | 163 | 94 | 0.634 | 7408 | 0 |
-| mheidari-all | 0.547 | observe | 165 | 77 | 88 | 0.467 | 17792 | 0 |
-| DeltaKronecker-all | 0.438 | observe | 51 | 18 | 33 | 0.353 | 6081 | 0 |
-| ermaozi-get_subscribe | 0.411 | observe | 10 | 6 | 4 | 0.6 | 431 | 0 |
-| mahdibland-V2RayAggregator | 0.335 | observe | 1 | 1 | 0 | 1.0 | 4234 | 0 |
-| Barabama-yudou | 0.262 | observe | 1 | 1 | 0 | 1.0 | 166 | 0 |
-| tg-oneclickvpnkeys | 0.26 | observe | 1 | 1 | 0 | 1.0 | 130 | 0 |
-| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 9115 | 0 |
-| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 7930 | 0 |
-| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6194 | 0 |
+| Au1rxx-base64 | 0.897 | prefer | 275 | 229 | 46 | 0.833 | 1663 | 0 |
+| mheidari-all | 0.834 | prefer | 63 | 48 | 15 | 0.762 | 16008 | 0 |
+| ermaozi | 0.748 | prefer | 54 | 40 | 14 | 0.741 | 396 | 0 |
+| Surfboard-tg-mixed | 0.68 | observe | 143 | 86 | 57 | 0.601 | 7408 | 0 |
+| DeltaKronecker-all | 0.668 | observe | 49 | 29 | 20 | 0.592 | 5931 | 0 |
+| ermaozi-get_subscribe | 0.365 | observe | 21 | 7 | 14 | 0.333 | 431 | 0 |
+| tg-oneclickvpnkeys | 0.26 | observe | 1 | 1 | 0 | 1.0 | 129 | 0 |
+| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 8871 | 0 |
+| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 7867 | 0 |
+| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6149 | 0 |
 | Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 5925 | 0 |
-| 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 5115 | 0 |
-| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3999 | 0 |
+| mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4179 | 0 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3998 | 0 |
 | xiaoji235-airport-v2ray-all | 0.255 | observe | 0 | 0 | 0 | None | 2484 | 0 |
-| Au1rxx-clash | 0.239 | observe | 0 | 0 | 0 | None | 1590 | 0 |
+| ninja-vless | 0.247 | observe | 0 | 0 | 0 | None | 1791 | 0 |
+| Au1rxx-clash | 0.242 | observe | 0 | 0 | 0 | None | 1663 | 0 |
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
-| ninja-vless | 0.199 | observe | 1 | 0 | 1 | 0.0 | 1791 | 0 |
+| 10ium-ScrapeCategorize-Vless | 0.207 | observe | 1 | 0 | 1 | 0.0 | 5093 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 496 | 0 |
-| barry-far-Sub1 | 0.194 | observe | 0 | 0 | 0 | None | 484 | 0 |
+| barry-far-Sub1 | 0.194 | observe | 0 | 0 | 0 | None | 482 | 0 |
 | ts-sf-Fly | 0.183 | observe | 0 | 0 | 0 | None | 201 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-ConfigV2rayNG | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | ts-sf | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
-| tg-proxy_mtm | 0.183 | observe | 0 | 0 | 0 | None | 188 | 0 |
-| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 179 | 0 |
+| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 168 | 0 |
+| Barabama-yudou | 0.182 | observe | 0 | 0 | 0 | None | 166 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
+| tg-prrofile_purple | 0.181 | observe | 0 | 0 | 0 | None | 151 | 0 |
 
 ## 综合后 30
 
