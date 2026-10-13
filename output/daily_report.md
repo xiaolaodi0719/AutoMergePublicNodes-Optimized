@@ -1,6 +1,6 @@
 # AutoNodes 每日报告
 
-生成时间：2026-10-12 15:10:46
+生成时间：2026-10-13 00:45:53
 
 ## 摘要
 
@@ -9,15 +9,15 @@
 | 健康状态 | warning |
 | 健康检查通过 | True |
 | 健康源数量 | 94/107 |
-| 清理建议：禁用/降权 | 0/0 |
-| 清理建议：优先/观察 | 3/104 |
-| 原始节点数 | 100392 |
-| 去重后节点数 | 27824 |
+| 清理建议：禁用/降权 | 0/1 |
+| 清理建议：优先/观察 | 1/105 |
+| 原始节点数 | 100924 |
+| 去重后节点数 | 27887 |
 | TCP 可达数 | 3000 |
-| 真测通过数 | 407 |
+| 真测通过数 | 483 |
 | verified 输出数 | 300 |
 | global 输出数 | 300 |
-| all 输出数 | 27824 |
+| all 输出数 | 27887 |
 | all 输出模式 | full |
 
 ## 阶段耗时
@@ -25,65 +25,64 @@
 | 阶段 | 秒 |
 | --- | --- |
 | fetch | 7.9 |
-| generate | 86.1 |
-| geo | 1.7 |
-| probe | 291.1 |
-| real_test | 361.2 |
-| tcp | 47.2 |
+| generate | 92.0 |
+| geo | 1.5 |
+| probe | 413.2 |
+| real_test | 693.8 |
+| tcp | 47.6 |
 
 ## 协议通过率
 
 | 协议 | 已测 | 通过 | 失败 | 通过率 |
 | --- | --- | --- | --- | --- |
-| anytls | 2 | 2 | 0 | 100.0% |
-| http | 52 | 25 | 27 | 48.1% |
-| hysteria2 | 9 | 9 | 0 | 100.0% |
-| shadowsocks | 127 | 110 | 17 | 86.6% |
-| socks | 4 | 2 | 2 | 50.0% |
-| trojan | 153 | 126 | 27 | 82.4% |
-| vless | 170 | 132 | 38 | 77.6% |
-| vmess | 1 | 1 | 0 | 100.0% |
+| anytls | 3 | 2 | 1 | 66.7% |
+| http | 28 | 12 | 16 | 42.9% |
+| hysteria2 | 16 | 15 | 1 | 93.8% |
+| shadowsocks | 119 | 116 | 3 | 97.5% |
+| socks | 5 | 2 | 3 | 40.0% |
+| trojan | 124 | 115 | 9 | 92.7% |
+| vless | 627 | 219 | 408 | 34.9% |
+| vmess | 2 | 2 | 0 | 100.0% |
 
 ## 主要真测错误
 
 | 错误 | 数量 |
 | --- | --- |
-| 204:ProxyError | 26 |
-| 204:TimeoutError | 21 |
-| cn-block:TimeoutError | 16 |
-| speed:TimeoutError | 12 |
-| 204:ProxyConnectionError | 7 |
-| geo:ClientOSError | 7 |
-| geo:TimeoutError | 7 |
-| cn-block:ClientOSError | 6 |
-| speed:ClientOSError | 6 |
-| sing-box exited 1: [31mFATAL[0m[0000] start service: start inbound: start inbound/socks[socks-in]: listen tcp 127.0.0.1:38306: bind: address already in use | 1 |
-| cn-block:ProxyError | 1 |
-| geo:ProxyError | 1 |
+| geo:TimeoutError | 213 |
+| speed:TimeoutError | 107 |
+| geo:ClientOSError | 38 |
+| speed:ClientOSError | 32 |
+| 204:ProxyError | 17 |
+| cn-block:TimeoutError | 15 |
+| cn-block:ClientOSError | 7 |
+| 204:ProxyConnectionError | 4 |
+| 204:TimeoutError | 4 |
+| cn-block:ProxyError | 3 |
+| 204:ClientOSError | 1 |
 
 ## TCP 预筛选错误
 
 | 错误 | 数量 |
 | --- | --- |
-| TimeoutError | 6400 |
-| ConnectionRefusedError | 1060 |
-| gaierror | 383 |
-| OSError | 238 |
+| TimeoutError | 6351 |
+| ConnectionRefusedError | 1058 |
+| gaierror | 417 |
+| OSError | 236 |
 
 ## 高评分订阅源
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过率 | 解析数 |
 | --- | --- | --- | --- | --- | --- |
-| Au1rxx-base64 | 0.982 | prefer | 318 | 0.912 | 1816 |
-| mheidari-all | 0.788 | prefer | 22 | 0.727 | 24027 |
-| Surfboard-tg-mixed | 0.747 | prefer | 70 | 0.671 | 7166 |
-| DeltaKronecker-all | 0.571 | observe | 51 | 0.49 | 5701 |
-| ermaozi | 0.518 | observe | 51 | 0.49 | 675 |
-| mahdibland-V2RayAggregator | 0.335 | observe | 1 | 1.0 | 4314 |
-| ermaozi-get_subscribe | 0.333 | observe | 2 | 1.0 | 532 |
-| Barabama-yudou | 0.262 | observe | 1 | 1.0 | 166 |
-| 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | None | 5028 |
-| Epodonios-all | 0.255 | observe | 0 | None | 7671 |
+| Au1rxx-base64 | 1.0 | prefer | 336 | 0.935 | 1847 |
+| Surfboard-tg-mixed | 0.48 | observe | 4 | 1.0 | 7208 |
+| ermaozi | 0.479 | observe | 29 | 0.448 | 675 |
+| mheidari-all | 0.355 | observe | 536 | 0.274 | 23897 |
+| ermaozi-get_subscribe | 0.29 | observe | 3 | 0.667 | 532 |
+| tg-OutlineReleasedKey | 0.257 | observe | 1 | 1.0 | 52 |
+| Epodonios-all | 0.255 | observe | 0 | None | 7736 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | None | 3998 |
+| SoliSpirit-all | 0.255 | observe | 0 | None | 10536 |
+| Surfboard-tg-vless | 0.255 | observe | 0 | None | 5678 |
 
 ## 需关注订阅源
 
@@ -100,35 +99,41 @@
 | tg-Parsashonam | 0.025 | observe | 0 | None | 1 | 0 |
 | tg-V2rayngVpn | 0.025 | observe | 0 | None | 1 | 0 |
 
+## 订阅源清理建议
+
+| 分类 | 订阅源 | 评分 | 已测 | 通过率 | 连续死亡 | 原因 |
+| --- | --- | --- | --- | --- | --- | --- |
+| downweight | DeltaKronecker-all | 0.243 | 11 | 0.182 | 0 | 已测数量 >= 5 且评分偏低 |
+
 ## 真测通过率较低的订阅源
 
 | 订阅源 | 通过率 | 通过 | 失败 | 已测 |
 | --- | --- | --- | --- | --- |
-| tg-V2RAYProxy | 0.0 | 0 | 1 | 1 |
 | tg-oneclickvpnkeys | 0.0 | 0 | 1 | 1 |
-| ermaozi | 0.49 | 25 | 26 | 51 |
-| DeltaKronecker-all | 0.49 | 25 | 26 | 51 |
-| Surfboard-tg-mixed | 0.671 | 47 | 23 | 70 |
-| mheidari-all | 0.727 | 16 | 6 | 22 |
-| Au1rxx-base64 | 0.912 | 290 | 28 | 318 |
-| mahdibland-V2RayAggregator | 1.0 | 1 | 0 | 1 |
-| Barabama-yudou | 1.0 | 1 | 0 | 1 |
-| ermaozi-get_subscribe | 1.0 | 2 | 0 | 2 |
+| Barabama-yudou | 0.0 | 0 | 1 | 1 |
+| tg-V2RAYProxy | 0.0 | 0 | 1 | 1 |
+| 10ium-ScrapeCategorize-Vless | 0.0 | 0 | 1 | 1 |
+| DeltaKronecker-all | 0.182 | 2 | 9 | 11 |
+| mheidari-all | 0.274 | 147 | 389 | 536 |
+| ermaozi | 0.448 | 13 | 16 | 29 |
+| ermaozi-get_subscribe | 0.667 | 2 | 1 | 3 |
+| Au1rxx-base64 | 0.935 | 314 | 22 | 336 |
+| tg-OutlineReleasedKey | 1.0 | 1 | 0 | 1 |
 
 ## 解析节点数较高的订阅源
 
 | 订阅源 | 节点数 | 是否正常 | 耗时 | 连续死亡 |
 | --- | --- | --- | --- | --- |
-| mheidari-all | 24027 | yes | 6.91 | 0 |
-| SoliSpirit-all | 9940 | yes | 2.69 | 0 |
-| Epodonios-all | 7671 | yes | 5.71 | 0 |
-| Surfboard-tg-mixed | 7166 | yes | 4.48 | 0 |
-| xiaoji235-airport-v2ray-all | 6752 | yes | 2.02 | 0 |
-| barry-far-vless | 6031 | yes | 1.23 | 0 |
-| Surfboard-tg-vless | 5781 | yes | 4.0 | 0 |
-| DeltaKronecker-all | 5701 | yes | 5.39 | 0 |
-| 10ium-ScrapeCategorize-Vless | 5028 | yes | 0.76 | 0 |
-| mahdibland-V2RayAggregator | 4314 | yes | 3.55 | 0 |
+| mheidari-all | 23897 | yes | 7.95 | 0 |
+| SoliSpirit-all | 10536 | yes | 4.7 | 0 |
+| Epodonios-all | 7736 | yes | 7.28 | 0 |
+| Surfboard-tg-mixed | 7208 | yes | 4.21 | 0 |
+| xiaoji235-airport-v2ray-all | 6752 | yes | 1.26 | 0 |
+| barry-far-vless | 6023 | yes | 2.05 | 0 |
+| DeltaKronecker-all | 5701 | yes | 5.87 | 0 |
+| Surfboard-tg-vless | 5678 | yes | 5.46 | 0 |
+| 10ium-ScrapeCategorize-Vless | 5028 | yes | 3.05 | 0 |
+| mahdibland-V2RayAggregator | 4314 | yes | 3.76 | 0 |
 
 ## 趋势报警
 
@@ -139,8 +144,7 @@
 ### 真测错误报警
 | 错误 | 数量 |
 | --- | --- |
-| 204 | 54 |
-| cn-block | 23 |
-| speed | 18 |
-| geo | 15 |
-| sing-box exited 1 | 1 |
+| geo | 251 |
+| speed | 139 |
+| 204 | 26 |
+| cn-block | 25 |
